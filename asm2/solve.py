@@ -1,0 +1,8 @@
+arg1 = 0x4
+arg2 = 0x21
+
+while(arg1 < 0xfb46):
+    arg2 += 0x1
+    arg1 += 0x74
+
+print(hex(arg2))
